@@ -1,0 +1,19 @@
+calibration:
+  epochs: 1000
+  patience: 50
+  cal_lr: 0.01
+  cal_weight_decay: 0
+  hidden_dim: 32
+
+gnn:
+  type: gcn
+  num_layer: 1
+  hid_dim: 16
+  dropout: 0.0
+  norm: ~
+
+train:
+  epochs: 500
+  lr: 0.01
+  weight_decay: 0.0
+  patience: 200

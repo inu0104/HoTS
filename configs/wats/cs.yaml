@@ -1,0 +1,5 @@
+calibration:
+  cal_dropout: 0.5
+  cal_hidden_dim: 32
+  chebyshev_order: 2
+  wavelet_scale: 1.2

@@ -1,0 +1,55 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+*.egg
+
+# Virtual environments
+venv/
+ENV/
+env/
+.venv/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Tool / plugin state
+.omc/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+logs/
+*.log
+nohup.out
+
+# Temporary
+*.tmp
+*.temp
+.cache/
+
+# Data and results (large files)
+data/
+results/
+
+# Local-only manuscript assets, helpers, and tests
+/paper/
+/scripts/
+/tests/
+
+# Historical local HoTS variants
+/hots/calibrators/hots_*.py
